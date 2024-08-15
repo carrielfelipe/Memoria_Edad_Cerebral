@@ -1,0 +1,78 @@
+train:
+  mae: [10.995615167146529, 10.879985336124658, 11.189377887892363, 11.290596151549712, 11.35178963444102, 10.89125989397617, 11.201057820931064, 11.324542255275299, 12.649203204504996, 11.066747080730373]
+  mse: [196.7173746185111, 188.10316366812862, 201.82723555324554, 206.31198279662607, 207.25432658117816, 190.43804352414224, 204.7195679937227, 206.55457115150128, 248.70463837987413, 202.31837757349516]
+  rmse: [14.02559712163839, 13.71507067674566, 14.206591271422063, 14.363564418229414, 14.396330316479203, 13.799929113011496, 14.308024601380957, 14.372006510974773, 15.770372169986164, 14.223866477631711]
+  r2: [0.5144900708157056, 0.5264890568273605, 0.49382330575036126, 0.48665883741749305, 0.4838562702974193, 0.5190120539334467, 0.4848086436133392, 0.4823870794993158, 0.3858223253448364, 0.49665154351217744]
+  model: [MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd')]
+val:
+  mae: [13.949772085652544, 14.201188145758632, 12.572688481012559, 13.45225046906993, 12.036719438091925, 14.5786988512885, 14.112504316157812, 12.263804100760503, 13.45646975774729, 14.604219263054212]
+  mse: [317.8106179538526, 318.32576901751287, 250.15130026808097, 290.2683242266487, 230.7979484372052, 333.76267904763546, 321.88300313458075, 244.16404882237416, 285.0876623630499, 332.0609897765572]
+  rmse: [17.827243700411252, 17.841686271692843, 15.816172111736803, 17.037262814978487, 15.192035691019331, 18.269172916353806, 17.941098158545945, 15.625749544337838, 16.88453915163366, 18.222540705855405]
+  r2: [0.1016592802455043, 0.25572370079549456, 0.3905148306799453, 0.2488737341013022, 0.4078528395680787, 0.241310469616153, 0.244519427825709, 0.3994827516692965, 0.18166704892023955, 0.14119319805424135]
+  model: [MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd')]
+test:
+  mae: [12.772912819317815, 12.92753546129167, 13.012708415088296, 12.736501870413932, 12.795603378532837, 12.847806068413442, 13.228105451829522, 12.818848044020523, 13.11202225430236, 13.01445888832123]
+  mse: [278.98543570133177, 269.83475870849855, 278.67197639461705, 265.25540704327733, 263.72457919743346, 277.6722695817368, 289.23554627264934, 267.7882652551816, 267.5185437510056, 281.8865531401414]
+  rmse: [16.70285711192345, 16.42664782323218, 16.693471070889274, 16.286663471788117, 16.239599108273378, 16.6635011201649, 17.006926420510244, 16.364237386911178, 16.355994122981507, 16.7894774528614]
+  r2: [0.31064886022567484, 0.3332594656820447, 0.3114233935980476, 0.3445746846357224, 0.3483572402292713, 0.3138935907578625, 0.28532164059004095, 0.3383161905646118, 0.3389826512558588, 0.30348042647559337]
+  model: [MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd'), MLPWrapper(activation='logistic', alpha=0.00013162771662733779, batch_size=128,
+           layer1=1584, layer2=644, learning_rate='adaptive',
+           learning_rate_init=0.000663303587547726, num_hl=2, solver='sgd')]

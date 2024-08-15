@@ -1,0 +1,48 @@
+train:
+  mae: [2.482367509679806, 2.4213753656362735, 2.58847716198462, 2.5802801427042614, 2.5169300977042273, 2.4073380598918375, 2.5731619576561333, 2.5029393671941116, 2.564038144177735, 2.4482556622886626]
+  mse: [28.215587746876768, 27.02438110638557, 30.7229251454156, 30.130981562449136, 28.75299686158597, 25.221436131358665, 30.404023314969667, 29.04619388484243, 29.884593811601576, 27.7503959894625]
+  rmse: [5.311834687457504, 5.19849796637313, 5.542826458172365, 5.489169478386429, 5.362182098883436, 5.022094795138645, 5.513984341197358, 5.389452095050333, 5.466680328279821, 5.267864461948741]
+  r2: [0.9303622873401731, 0.9319716907637017, 0.9229478189841089, 0.9250287215732548, 0.9283938758477366, 0.9362984068877338, 0.9234861124182756, 0.9272120429853139, 0.9261998069083506, 0.9309597123318781]
+  model: [RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898)]
+val:
+  mae: [13.362738772969488, 14.469808738207231, 12.764441158256849, 13.179745369235672, 12.557649478049035, 14.520712384900818, 13.608136866130264, 13.065640942740878, 13.035594331576693, 14.890586742768834]
+  mse: [261.004895839024, 312.0760280039939, 239.44538539680127, 250.19210389776026, 234.27352271549026, 300.74343639973256, 268.87196210280615, 265.7327622973936, 262.4880323981108, 308.7662106626061]
+  rmse: [16.155645943106826, 17.665673720636693, 15.474022922200977, 15.817461992929216, 15.30599629934263, 17.341955956573425, 16.39731569808931, 16.301311674138176, 16.201482413597553, 17.57174466757943]
+  r2: [0.2622294135511791, 0.27033619706585665, 0.4165994296048968, 0.35257882079021985, 0.3989357263368202, 0.3163678540117052, 0.36893982660487445, 0.3464348745206228, 0.2465384001713773, 0.2014403073769805]
+  model: [RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898)]
+test:
+  mae: [13.128769449839677, 13.318286409064157, 13.225563234024186, 13.193872684017233, 13.23857781433372, 13.303816240536708, 13.398543293377443, 13.244845215249802, 13.24184590583867, 13.228182691917185]
+  mse: [249.40629834380408, 255.8573447207209, 256.4686993215452, 254.67575892250804, 253.19428158229223, 256.5917976763322, 259.00443430541435, 253.46143572845324, 252.47855577750306, 258.87711246867127]
+  rmse: [15.792602646296274, 15.99554140130058, 16.01464015585568, 15.958563811399447, 15.912079737805874, 16.018483001718113, 16.093614706007298, 15.920472220648897, 15.889573807295873, 16.089658556621742]
+  r2: [0.38373658969690794, 0.36779655984737336, 0.3662859505575906, 0.3707161657210334, 0.3743767800841462, 0.36598178417355176, 0.3600203482084875, 0.373716663133279, 0.3761452824364536, 0.36033495048532815]
+  model: [RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898), RandomForestRegressor(bootstrap=False, max_depth=46, max_features='sqrt',
+                      min_samples_leaf=2, n_estimators=898)]
